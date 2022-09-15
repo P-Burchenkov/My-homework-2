@@ -1,0 +1,79 @@
+/* primary text color #212121 */
+/* secondary text color #757575*/
+/* accent color  #2196F3 */
+/* bg-main #F5F5F5 */
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --main-bg: #f5f5f5;
+}
+
+/* Общие стили */
+
+/* main content */
+.main-content {
+  color: var(--main-text-color);
+}
+
+/* логотип */
+.logo {
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+/*глвная навигация сайта */
+.main-nav .current {
+  color: var(--accent-color);
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* контакты */
+.contacts a {
+  color: var(--secondary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* футер */
+.adress-fact {
+  color: var(--white-color);
+}
+
+.adress-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* cстили index.html */
+
+/* Заголовок страницы */
+.tittle {
+  color: var(--white-color);
+}
+
+/* кнопка */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* абзац */
+.section .text {
+  color: var(--secondary-text-color);
+}
+
+.section .link:hover {
+  color: var(--accent-color);
+}
