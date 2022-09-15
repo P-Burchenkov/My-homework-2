@@ -55,8 +55,10 @@
 .adress-contact {
   color: rgba(255, 255, 255, 0.6);
 }
-.adress:hover,
-.adress:focus {
+.adress-fact:hover,
+.adress-fact:focus,
+.adress-contact:hover,
+.adress-contact:focus {
   color: var(--accent-color);
 }
 
@@ -68,7 +70,13 @@
 }
 
 /* кнопка */
-.button {
+/* .button { */
+/* color: var(--white-color); */
+/* background-color: var(--accent-color); */
+/* } */
+
+.button:hover,
+.button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -78,6 +86,4 @@
   color: var(--secondary-text-color);
 }
 
-.section .link:hover {
-  color: var(--accent-color);
-}
+/* стили portfolio.html */
