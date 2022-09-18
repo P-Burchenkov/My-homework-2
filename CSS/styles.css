@@ -16,11 +16,22 @@
 /* main content */
 .main-content {
   color: var(--main-text-color);
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* логотип */
 .logo {
   color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo > span {
@@ -28,6 +39,13 @@
 }
 
 /*глвная навигация сайта */
+.main-nav,
+.contacts {
+  font-family: "Roboto";
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .main-nav .current {
   color: var(--accent-color);
 }
@@ -50,11 +68,14 @@
 /* футер */
 .adress-fact {
   color: var(--white-color);
+  background: #000000;
 }
 
 .adress-contact {
   color: rgba(255, 255, 255, 0.6);
+  background-color: #000000;
 }
+
 .adress-fact:hover,
 .adress-fact:focus,
 .adress-contact:hover,
@@ -62,28 +83,65 @@
   color: var(--accent-color);
 }
 
-/* cстили index.html */
-
-/* Заголовок страницы */
-.tittle {
-  color: var(--white-color);
-}
-
 /* кнопка */
-/* .button { */
-/* color: var(--white-color); */
-/* background-color: var(--accent-color); */
-/* } */
-
 .button:hover,
 .button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
+/* cстили index.html */
+
+/* Заголовок страницы */
+.tittle {
+  color: var(--white-color);
+  background-color: #000000;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Заголовки секций */
+.section-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* заголовки элементов списка values */
+.values-tittle {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Имена членов команды */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /* абзац */
-.section .text {
+.text {
   color: var(--secondary-text-color);
 }
 
+/* профессии яленов команды */
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /* стили portfolio.html */
+
+.nav-local {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
