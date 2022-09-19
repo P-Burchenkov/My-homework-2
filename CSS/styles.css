@@ -17,11 +17,18 @@
 .main-content {
   color: var(--main-text-color);
 
-  font-family: "Roboto";
-  font-weight: 400;
+  font-family: "Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.text-decoration {
+  text-decoration: none;
 }
 
 /* логотип */
@@ -65,7 +72,7 @@
   color: var(--accent-color);
 }
 
-/* футер */
+/* футер, бэкграунд задан временно для визуального удобства*/
 .adress-fact {
   color: var(--white-color);
   background: #000000;
@@ -84,6 +91,10 @@
 }
 
 /* кнопка */
+.button {
+  cursor: pointer;
+}
+
 .button:hover,
 .button:focus {
   color: var(--white-color);
@@ -106,7 +117,6 @@
 
 /* Заголовки секций */
 .section-tittle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -114,7 +124,6 @@
 
 /* заголовки элементов списка values */
 .values-tittle {
-  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -132,7 +141,7 @@
   color: var(--secondary-text-color);
 }
 
-/* профессии яленов команды */
+/* профессии членов команды */
 .team .text {
   font-size: 16px;
   line-height: 1.19;
@@ -140,8 +149,16 @@
 
 /* стили portfolio.html */
 
-.nav-local {
-  font-weight: 400;
+/* заголовки работ */
+.portfolio-tittle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+/* описание работ */
+.portfolio .text {
   font-size: 16px;
   line-height: 1.88;
 }
