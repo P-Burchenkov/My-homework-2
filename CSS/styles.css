@@ -16,8 +16,8 @@
 /* main content */
 .main-content {
   color: var(--main-text-color);
-
-  font-family: "Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;";
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -27,7 +27,7 @@
   list-style-type: none;
 }
 
-.text-decoration {
+.link-underline {
   text-decoration: none;
 }
 
@@ -48,7 +48,6 @@
 /*глвная навигация сайта */
 .main-nav,
 .contacts {
-  font-family: "Roboto";
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -76,11 +75,13 @@
 .adress-fact {
   color: var(--white-color);
   background: #000000;
+  font-style: normal;
 }
 
 .adress-contact {
   color: rgba(255, 255, 255, 0.6);
   background-color: #000000;
+  font-style: normal;
 }
 
 .adress-fact:hover,
