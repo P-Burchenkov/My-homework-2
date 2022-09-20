@@ -21,6 +21,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .list {
@@ -50,6 +51,7 @@
 .contacts {
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .main-nav .current {
