@@ -1,8 +1,3 @@
-/* primary text color #212121 */
-/* secondary text color #757575*/
-/* accent color  #2196F3 */
-/* bg-main #F5F5F5 */
-
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
@@ -11,157 +6,35 @@
   --main-bg: #f5f5f5;
 }
 
-/* Общие стили */
+/* СБРОС */
 
-/* main content */
-.main-content {
-  color: var(--main-text-color);
-  font-weight: 400;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  font-style: normal;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.list {
-  list-style-type: none;
-}
-
-.link-underline {
+a {
   text-decoration: none;
+  color: inherit;
 }
 
-/* логотип */
-.logo {
-  color: #000000;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
-.logo > span {
-  color: var(--accent-color);
+.hidden-title {
+  display: none;
 }
 
-/*глвная навигация сайта */
-.main-nav,
-.contacts {
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
+/* BODY */
 
-.main-nav .current {
-  color: var(--accent-color);
-}
-
-.main-nav a:hover,
-.main-nav a:focus {
-  color: var(--accent-color);
-}
-
-/* контакты */
-.contacts a {
-  color: var(--secondary-text-color);
-}
-
-.contacts a:hover,
-.contacts a:focus {
-  color: var(--accent-color);
-}
-
-/* футер, бэкграунд задан временно для визуального удобства*/
-.adress-fact {
-  color: var(--white-color);
-  background: #000000;
-  font-style: normal;
-}
-
-.adress-contact {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #000000;
-  font-style: normal;
-}
-
-.adress-fact:hover,
-.adress-fact:focus,
-.adress-contact:hover,
-.adress-contact:focus {
-  color: var(--accent-color);
-}
-
-/* кнопка */
-.button {
-  cursor: pointer;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-}
-
-/* cстили index.html */
-
-/* Заголовок страницы */
-.tittle {
-  color: var(--white-color);
-  background-color: #000000;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-/* Заголовки секций */
-.section-tittle {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-/* заголовки элементов списка values */
-.values-tittle {
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-/* Имена членов команды */
-.team-member {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-/* абзац */
-.text {
-  color: var(--secondary-text-color);
-}
-
-/* профессии членов команды */
-.team .text {
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-/* стили portfolio.html */
-
-/* заголовки работ */
-.portfolio-tittle {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+body {
   color: var(--main-text-color);
-}
-
-/* описание работ */
-.portfolio .text {
-  font-size: 16px;
-  line-height: 1.88;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
 }
