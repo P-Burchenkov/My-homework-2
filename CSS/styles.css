@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --main-bg: #f5f5f5;
+  --hero-bg: #2f303a;
+  --btn-col: #f5f4fa;
 }
 
 /* СБРОС */
@@ -93,7 +95,7 @@ body {
 /* HERO */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-bg);
 }
 
 .hero-title {
@@ -109,14 +111,16 @@ body {
 /* BUTTON HERO */
 
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
-  border-color: inherit;
+  border-color: transparent;
   border-radius: 4px;
+  width: 216px;
 }
 
 .button:hover,
@@ -177,7 +181,7 @@ body {
 /* FOOT */
 
 .foot {
-  background-color: #2f303a;
+  background-color: var(--hero-bg);
 }
 
 .logo-studio-foot {
@@ -190,7 +194,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .foot-adress-contact {
@@ -212,6 +216,7 @@ body {
 /* BUTTON */
 
 .btn {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -219,14 +224,14 @@ body {
   letter-spacing: 0.03em;
 
   height: 38px;
-  background: #f5f4fa;
+  background: var(--btn-col);
   border-radius: 4px;
-  border-color: inherit;
+  border-color: transparent;
 }
 
 .btn:hover,
 .btn:focus {
-  color: #f5f4fa;
+  color: var(--btn-col);
   background-color: var(--accent-color);
 }
 
